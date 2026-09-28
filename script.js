@@ -43,7 +43,7 @@ const projects = [
         statusColor: "amber",
         period: "Set 2026 - Indefinido",
         schedule: "Início de operações marcado para o final de setembro/2026.",
-        responsibles: ["Pedro Lucas"],
+        responsibles: ["Prof. Dr. João Batista Gonçalves Costa Junior"],
         students: ["Pedro Lucas"],
         demands: "Redação do projeto no sistema; Início imediato da fase de campo."
     },
