@@ -1,6 +1,6 @@
-<mxfile host="Electron" pages="2">
+<mxfile host="Electron">
   <diagram name="LOGIN" id="y3PFEnRm7441X2zWDJSP">
-    <mxGraphModel dx="1229" dy="1925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="860" dy="1698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,14 +46,6 @@
         <mxCell id="SzVJD5BaS0ZKli0HWQsP-10" edge="1" parent="1" source="SzVJD5BaS0ZKli0HWQsP-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.467;entryY=-0.027;entryDx=0;entryDy=0;entryPerimeter=0;" target="SzVJD5BaS0ZKli0HWQsP-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="afWbZJ5Aczgf95uQ9F11" name="Página-2">
-    <mxGraphModel dx="860" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
