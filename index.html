@@ -28,6 +28,112 @@
 
 <!-- Conteúdo Principal -->
 <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full">
+    
+    <!-- NOVA SEÇÃO: Agenda de Treinamentos (Baseado no PDF) -->
+    <div class="bg-white rounded-2xl shadow-sm border border-slate-200 mb-8 overflow-hidden">
+        <div class="p-6 border-b border-slate-100 flex items-center justify-between bg-slate-50">
+            <div class="flex items-center gap-3">
+                <div class="bg-[#051b34] p-3 rounded-lg text-white shadow-sm">
+                    <i class="fas fa-chalkboard-teacher text-xl"></i>
+                </div>
+                <div>
+                    <h2 class="text-lg font-bold text-slate-800">Cronograma de Treinamentos e Artigos</h2>
+                    <p class="text-xs text-slate-500">Semestre 2026/2 e 2027/1</p>
+                </div>
+            </div>
+            <span class="bg-emerald-100 text-emerald-800 text-xs font-bold px-3 py-1 rounded-full border border-emerald-200">Ativo</span>
+        </div>
+        
+        <div class="overflow-x-auto max-h-80 overflow-y-auto" id="tabela-treinamentos">
+            <table class="w-full text-left text-sm text-slate-600 relative">
+                <thead class="bg-white text-xs uppercase font-bold text-slate-400 sticky top-0 shadow-sm z-10">
+                    <tr>
+                        <th class="px-6 py-4 border-b border-slate-100">Data</th>
+                        <th class="px-6 py-4 border-b border-slate-100">Responsável</th>
+                        <th class="px-6 py-4 border-b border-slate-100">Tema do Treinamento / Artigo</th>
+                        <th class="px-6 py-4 border-b border-slate-100">Pilar</th>
+                    </tr>
+                </thead>
+                <tbody class="divide-y divide-slate-50">
+                    <tr class="hover:bg-slate-50 transition-colors" data-date="2026-09-23">
+                        <td class="px-6 py-3 whitespace-nowrap font-medium text-slate-700">23/09/2026</td>
+                        <td class="px-6 py-3">Prof. João Costa Jr</td>
+                        <td class="px-6 py-3">D. Berckmans, 2017 General introduction to precision livestock farming</td>
+                        <td class="px-6 py-3"><span class="bg-blue-100 text-blue-800 text-[10px] font-bold px-2 py-0.5 rounded uppercase">Artigo Científico</span></td>
+                    </tr>
+                    <tr class="hover:bg-slate-50 transition-colors" data-date="2026-09-30">
+                        <td class="px-6 py-3 whitespace-nowrap font-medium text-slate-700">30/09/2026</td>
+                        <td class="px-6 py-3">Reinaldo</td>
+                        <td class="px-6 py-3">Introdução à Zootecnia de Precisão</td>
+                        <td class="px-6 py-3"><span class="bg-purple-100 text-purple-800 text-[10px] font-bold px-2 py-0.5 rounded uppercase">Técnico</span></td>
+                    </tr>
+                    <tr class="hover:bg-slate-50 transition-colors" data-date="2026-10-14">
+                        <td class="px-6 py-3 whitespace-nowrap font-medium text-slate-700">14/10/2026</td>
+                        <td class="px-6 py-3">Prof. João Costa Jr</td>
+                        <td class="px-6 py-3">Precision livestock farming technologies</td>
+                        <td class="px-6 py-3"><span class="bg-blue-100 text-blue-800 text-[10px] font-bold px-2 py-0.5 rounded uppercase">Artigo Científico</span></td>
+                    </tr>
+                    <tr class="hover:bg-slate-50 transition-colors" data-date="2026-10-21">
+                        <td class="px-6 py-3 whitespace-nowrap font-medium text-slate-700">21/10/2026</td>
+                        <td class="px-6 py-3">Pedro Soldatelli</td>
+                        <td class="px-6 py-3">Coleta de dados</td>
+                        <td class="px-6 py-3"><span class="bg-purple-100 text-purple-800 text-[10px] font-bold px-2 py-0.5 rounded uppercase">Técnico</span></td>
+                    </tr>
+                    <tr class="hover:bg-slate-50 transition-colors" data-date="2026-10-28">
+                        <td class="px-6 py-3 whitespace-nowrap font-medium text-slate-700">28/10/2026</td>
+                        <td class="px-6 py-3">Lízias</td>
+                        <td class="px-6 py-3">Tipos e Estrutura de Dados</td>
+                        <td class="px-6 py-3"><span class="bg-purple-100 text-purple-800 text-[10px] font-bold px-2 py-0.5 rounded uppercase">Técnico</span></td>
+                    </tr>
+                    <tr class="hover:bg-slate-50 transition-colors" data-date="2026-11-04">
+                        <td class="px-6 py-3 whitespace-nowrap font-medium text-slate-700">04/11/2026</td>
+                        <td class="px-6 py-3 font-semibold text-[#051b34]">Pedro Lucas</td>
+                        <td class="px-6 py-3">Artigo científico Precision Livestock farming...</td>
+                        <td class="px-6 py-3"><span class="bg-blue-100 text-blue-800 text-[10px] font-bold px-2 py-0.5 rounded uppercase">Artigo Científico</span></td>
+                    </tr>
+                    <tr class="hover:bg-slate-50 transition-colors" data-date="2026-11-11">
+                        <td class="px-6 py-3 whitespace-nowrap font-medium text-slate-700">11/11/2026</td>
+                        <td class="px-6 py-3">Pedro Soldatelli</td>
+                        <td class="px-6 py-3">Qualidade de Dados</td>
+                        <td class="px-6 py-3"><span class="bg-purple-100 text-purple-800 text-[10px] font-bold px-2 py-0.5 rounded uppercase">Técnico</span></td>
+                    </tr>
+                    <tr class="hover:bg-slate-50 transition-colors" data-date="2026-11-18">
+                        <td class="px-6 py-3 whitespace-nowrap font-medium text-slate-700">18/11/2026</td>
+                        <td class="px-6 py-3">Alanna</td>
+                        <td class="px-6 py-3">Influence of risk and trust on beef producers use of precision livestock farming</td>
+                        <td class="px-6 py-3"><span class="bg-blue-100 text-blue-800 text-[10px] font-bold px-2 py-0.5 rounded uppercase">Artigo Científico</span></td>
+                    </tr>
+                    <tr class="hover:bg-slate-50 transition-colors" data-date="2026-11-25">
+                        <td class="px-6 py-3 whitespace-nowrap font-medium text-slate-700">25/11/2026</td>
+                        <td class="px-6 py-3">Gabrielly</td>
+                        <td class="px-6 py-3">Trabalho em equipe e organização</td>
+                        <td class="px-6 py-3"><span class="bg-amber-100 text-amber-800 text-[10px] font-bold px-2 py-0.5 rounded uppercase">Soft/Comunicação</span></td>
+                    </tr>
+                    <tr class="hover:bg-slate-50 transition-colors" data-date="2026-12-02">
+                        <td class="px-6 py-3 whitespace-nowrap font-medium text-slate-700">02/12/2026</td>
+                        <td class="px-6 py-3">Emanuelly</td>
+                        <td class="px-6 py-3">Industry 4.0 and Precision Livestock Farming (PLF)</td>
+                        <td class="px-6 py-3"><span class="bg-blue-100 text-blue-800 text-[10px] font-bold px-2 py-0.5 rounded uppercase">Artigo Científico</span></td>
+                    </tr>
+                    <tr class="hover:bg-slate-50 transition-colors" data-date="2026-12-09">
+                        <td class="px-6 py-3 whitespace-nowrap font-medium text-slate-700">09/12/2026</td>
+                        <td class="px-6 py-3">Davi Roque</td>
+                        <td class="px-6 py-3">Análise Exploratória</td>
+                        <td class="px-6 py-3"><span class="bg-purple-100 text-purple-800 text-[10px] font-bold px-2 py-0.5 rounded uppercase">Técnico</span></td>
+                    </tr>
+                    <tr class="hover:bg-slate-50 transition-colors" data-date="2027-03-03">
+                        <td class="px-6 py-3 whitespace-nowrap font-medium text-slate-700">03/03/2027</td>
+                        <td class="px-6 py-3">Luis Felipe</td>
+                        <td class="px-6 py-3">Precision Livestock Farming Applications (PLF) for Grazing Animals</td>
+                        <td class="px-6 py-3"><span class="bg-blue-100 text-blue-800 text-[10px] font-bold px-2 py-0.5 rounded uppercase">Artigo Científico</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <!-- Início do Grid Dividido -->
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
         
         <!-- Coluna Lateral Left -->
@@ -90,7 +196,7 @@
                 </div>
             </div>
 
-            <!-- Novo Bloco: Disponibilidade Semanal da Equipe -->
+            <!-- Bloco: Disponibilidade Semanal da Equipe -->
             <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
                 <div class="flex items-center gap-3 mb-4">
                     <div class="bg-[#051b34]/10 p-3 rounded-lg text-[#051b34]">
@@ -107,19 +213,26 @@
                         <span class="text-xs font-bold text-[#051b34] uppercase tracking-wider block mb-1">
                             <i class="far fa-calendar text-slate-400 mr-1"></i> Segunda-feira
                         </span>
-                        <p class="text-xs text-slate-700">
+                        <p class="text-xs text-slate-700 mb-1">
                             <strong>Manhã:</strong> 
                             <a href="https://wa.me/556584456495" target="_blank" class="text-emerald-600 hover:underline inline-flex items-center gap-1"><i class="fab fa-whatsapp"></i> Alanna (+55 65 8445-6495)</a> e 
                             <a href="https://wa.me/556592543560" target="_blank" class="text-emerald-600 hover:underline inline-flex items-center gap-1"><i class="fab fa-whatsapp"></i> Gabrielly (+55 65 9254-3560)</a>
+                        </p>
+                        <p class="text-xs text-slate-700">
+                            <strong>Tarde:</strong> 
+                            <a href="https://wa.me/556599200988" target="_blank" class="text-emerald-600 hover:underline inline-flex items-center gap-1"><i class="fab fa-whatsapp"></i> Emanuelly (+55 65 9920-0988)</a>
                         </p>
                     </div>
 
                     <!-- Terça -->
                     <div class="p-3 bg-slate-50 rounded-lg border border-slate-100">
-                        <span class="text-xs font-bold text-slate-400 uppercase tracking-wider block mb-1">
+                        <span class="text-xs font-bold text-[#051b34] uppercase tracking-wider block mb-1">
                             <i class="far fa-calendar text-slate-400 mr-1"></i> Terça-feira
                         </span>
-                        <p class="text-xs text-slate-400 italic">Sem horários informados</p>
+                        <p class="text-xs text-slate-700">
+                            <strong>Tarde:</strong> 
+                            <a href="https://wa.me/557388575402" target="_blank" class="text-emerald-600 hover:underline inline-flex items-center gap-1"><i class="fab fa-whatsapp"></i> Pedro Lucas (+55 73 8857-5402)</a>
+                        </p>
                     </div>
 
                     <!-- Quarta -->
@@ -145,10 +258,13 @@
                         </span>
                         <p class="text-xs text-slate-700 mb-1">
                             <strong>Tarde:</strong> 
-                            <a href="https://wa.me/556592066281" target="_blank" class="text-emerald-600 hover:underline inline-flex items-center gap-1"><i class="fab fa-whatsapp"></i> Ana Mônica (+55 65 9206-6281)</a>
+                            <a href="https://wa.me/556592066281" target="_blank" class="text-emerald-600 hover:underline inline-flex items-center gap-1"><i class="fab fa-whatsapp"></i> Ana Mônica (+55 65 9206-6281)</a>, 
+                            <a href="https://wa.me/556599200988" target="_blank" class="text-emerald-600 hover:underline inline-flex items-center gap-1"><i class="fab fa-whatsapp"></i> Emanuelly (+55 65 9920-0988)</a> e 
+                            <a href="https://wa.me/557388575402" target="_blank" class="text-emerald-600 hover:underline inline-flex items-center gap-1"><i class="fab fa-whatsapp"></i> Pedro Lucas (+55 73 8857-5402)</a>
                         </p>
                         <p class="text-xs text-slate-700">
-                            <strong>Manhã e Tarde:</strong> Luis Felipe
+                            <strong>Manhã e Tarde:</strong> 
+                            <a href="https://wa.me/556592941065" target="_blank" class="text-emerald-600 hover:underline inline-flex items-center gap-1"><i class="fab fa-whatsapp"></i> Luis Felipe (+55 65 9294-1065)</a>
                         </p>
                     </div>
 
@@ -159,8 +275,10 @@
                         </span>
                         <p class="text-xs text-slate-700 mb-1">
                             <strong>Tarde:</strong> 
-                            <a href="https://wa.me/556599357962" target="_blank" class="text-emerald-600 hover:underline inline-flex items-center gap-1"><i class="fab fa-whatsapp"></i> Iuri Muller (+55 65 9935-7962)</a> e 
-                            <a href="https://wa.me/556592066281" target="_blank" class="text-emerald-600 hover:underline inline-flex items-center gap-1"><i class="fab fa-whatsapp"></i> Ana Mônica (+55 65 9206-6281)</a>
+                            <a href="https://wa.me/556599357962" target="_blank" class="text-emerald-600 hover:underline inline-flex items-center gap-1"><i class="fab fa-whatsapp"></i> Iuri Muller (+55 65 9935-7962)</a>, 
+                            <a href="https://wa.me/556592066281" target="_blank" class="text-emerald-600 hover:underline inline-flex items-center gap-1"><i class="fab fa-whatsapp"></i> Ana Mônica (+55 65 9206-6281)</a>, 
+                            <a href="https://wa.me/556599200988" target="_blank" class="text-emerald-600 hover:underline inline-flex items-center gap-1"><i class="fab fa-whatsapp"></i> Emanuelly (+55 65 9920-0988)</a> e 
+                            <a href="https://wa.me/557388575402" target="_blank" class="text-emerald-600 hover:underline inline-flex items-center gap-1"><i class="fab fa-whatsapp"></i> Pedro Lucas (+55 73 8857-5402)</a>
                         </p>
                         <p class="text-xs text-slate-700">
                             <strong>Manhã e Tarde:</strong> 
@@ -175,14 +293,17 @@
                         </span>
                         <p class="text-xs text-slate-700 mb-1">
                             <strong>Manhã:</strong> 
-                            <a href="https://wa.me/556599357962" target="_blank" class="text-emerald-600 hover:underline inline-flex items-center gap-1"><i class="fab fa-whatsapp"></i> Iuri Muller (+55 65 9935-7962)</a>
+                            <a href="https://wa.me/556599357962" target="_blank" class="text-emerald-600 hover:underline inline-flex items-center gap-1"><i class="fab fa-whatsapp"></i> Iuri Muller (+55 65 9935-7962)</a>, 
+                            <a href="https://wa.me/556599200988" target="_blank" class="text-emerald-600 hover:underline inline-flex items-center gap-1"><i class="fab fa-whatsapp"></i> Emanuelly (+55 65 9920-0988)</a> e 
+                            <a href="https://wa.me/557388575402" target="_blank" class="text-emerald-600 hover:underline inline-flex items-center gap-1"><i class="fab fa-whatsapp"></i> Pedro Lucas (+55 73 8857-5402)</a>
                         </p>
                         <p class="text-xs text-slate-700 mb-1">
                             <strong>Qualquer horário:</strong> 
                             <a href="https://wa.me/556592066281" target="_blank" class="text-emerald-600 hover:underline inline-flex items-center gap-1"><i class="fab fa-whatsapp"></i> Ana Mônica (+55 65 9206-6281)</a>
                         </p>
                         <p class="text-xs text-slate-700">
-                            <strong>Manhã e Tarde:</strong> Luis Felipe e 
+                            <strong>Manhã e Tarde:</strong> 
+                            <a href="https://wa.me/556592941065" target="_blank" class="text-emerald-600 hover:underline inline-flex items-center gap-1"><i class="fab fa-whatsapp"></i> Luis Felipe (+55 65 9294-1065)</a> e 
                             <a href="https://wa.me/556593034884" target="_blank" class="text-emerald-600 hover:underline inline-flex items-center gap-1"><i class="fab fa-whatsapp"></i> Lízias Polaco (+55 65 9303-4884)</a>
                         </p>
                     </div>
@@ -197,12 +318,13 @@
                             <a href="https://wa.me/556592066281" target="_blank" class="text-emerald-600 hover:underline inline-flex items-center gap-1"><i class="fab fa-whatsapp"></i> Ana Mônica (+55 65 9206-6281)</a>
                         </p>
                         <p class="text-xs text-slate-700">
-                            <strong>Manhã e Tarde:</strong> Luis Felipe
+                            <strong>Manhã e Tarde:</strong> 
+                            <a href="https://wa.me/556592941065" target="_blank" class="text-emerald-600 hover:underline inline-flex items-center gap-1"><i class="fab fa-whatsapp"></i> Luis Felipe (+55 65 9294-1065)</a>
                         </p>
                     </div>
                 </div>
             </div>
-        </div> <!-- FECHAMENTO CORRETO DA COLUNA LATERAL AQUI -->
+        </div>
 
         <!-- Coluna Principal (Projetos) -->
         <div class="lg:col-span-2">
@@ -299,3 +421,30 @@
 
 <!-- CONEXÃO COM O ARQUIVO JAVASCRIPT -->
 <script src="script.js"></script>
+
+<!-- SCRIPT PARA DESTACAR AUTOMATICAMENTE A DATA DE HOJE NA TABELA DE TREINAMENTOS -->
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        // Pega a data atual do sistema
+        const hoje = new Date();
+        const ano = hoje.getFullYear();
+        const mes = String(hoje.getMonth() + 1).padStart(2, '0');
+        const dia = String(hoje.getDate()).padStart(2, '0');
+        const dataHojeFormatada = `${ano}-${mes}-${dia}`;
+
+        // Procura todas as linhas da tabela que têm o atributo data-date
+        const linhas = document.querySelectorAll('tr[data-date]');
+        
+        linhas.forEach(linha => {
+            if (linha.getAttribute('data-date') === dataHojeFormatada) {
+                // Remove o background padrão e adiciona o destaque
+                linha.classList.remove('hover:bg-slate-50');
+                linha.classList.add('bg-emerald-50', 'border-l-4', 'border-emerald-500', 'shadow-sm');
+                
+                // Adiciona a etiqueta "HOJE" a piscar na coluna da data
+                const celulaData = linha.querySelector('td:first-child');
+                celulaData.innerHTML += ' <span class="ml-2 bg-emerald-500 text-white text-[10px] font-bold px-2 py-0.5 rounded uppercase animate-pulse">Hoje</span>';
+            }
+        });
+    });
+</script>
